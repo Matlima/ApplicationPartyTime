@@ -11,6 +11,8 @@ const checkPartyBudget = (budget, services) => {
 };
 
 const partyController = {
+
+    // Method POST:
     create: async (req, res) => {
         try {
             const party = {
@@ -33,7 +35,19 @@ const partyController = {
         } catch (error) {
             console.log(error);
         }
-    }
+    },
+
+    // METHOD GET ALL:
+    getAll: async (req, res) => {
+        try {
+            const parties = await PartyModel.find();
+            res.json(parties);
+        } catch (error) {
+            console.log(error);
+        }
+    },
+
+    
 
 };
 
