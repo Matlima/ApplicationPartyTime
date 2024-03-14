@@ -47,7 +47,25 @@ const partyController = {
         }
     },
 
+    // METHOD GET by ID:
+    get: async (req, res) => {
+        try {
+            const id = req.params.id;
+            const parties = await PartyModel.findById(id);
+
+            if (!parties) {
+                res.status(404).json({ msg: "Serviço não encontrado" });
+                return;
+            }
+
+            res.json(parties);
+        } catch (error) {
+            console.log(error);
+        }
+    },
     
+
+
 
 };
 
