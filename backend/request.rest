@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fchammafesta.com.br%2Fbalao-metalizado-coracao-18&psig=AOvVaw39UHYrm2gLI0K8WTU-Bs9n&ust=1710468833682000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMje5IrX8oQDFQAAAAAdAAAAABAE"
+}
