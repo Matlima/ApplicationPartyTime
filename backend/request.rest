@@ -30,3 +30,29 @@ Content-Type: application/json
     "price": 900,
     "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fchammafesta.com.br%2Fbalao-metalizado-coracao-18&psig=AOvVaw39UHYrm2gLI0K8WTU-Bs9n&ust=1710468833682000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMje5IrX8oQDFQAAAAAdAAAAABAE"
 }
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "Meu evento 2",
+    "author": "Matheus Lima",
+    "description": "Uma festa de aniversário 2",
+    "budget": 9000,
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fchammafesta.com.br%2Fbalao-metalizado-coracao-18&psig=AOvVaw39UHYrm2gLI0K8WTU-Bs9n&ust=1710468833682000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMje5IrX8oQDFQAAAAAdAAAAABAE",
+    "services": [
+        {
+            "name": "Balão de coração",
+            "description": "Balões de corações para eventos de amor",
+            "price": 900,
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fchammafesta.com.br%2Fbalao-metalizado-coracao-18&psig=AOvVaw39UHYrm2gLI0K8WTU-Bs9n&ust=1710468833682000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMje5IrX8oQDFQAAAAAdAAAAABAE"
+        },
+        {
+            "name": "Balão tradicional",
+            "description": "Balões de corações para eventos de amor",
+            "price": 600,
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fchammafesta.com.br%2Fbalao-metalizado-coracao-18&psig=AOvVaw39UHYrm2gLI0K8WTU-Bs9n&ust=1710468833682000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMje5IrX8oQDFQAAAAAdAAAAABAE"
+        }
+    ]
+}
