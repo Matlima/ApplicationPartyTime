@@ -20,6 +20,11 @@ router
 //END-POINT DELETE
 router
     .route("/services/:id")
-    .delete((req, rest) => serviceController.delete(req, rest));
+    .delete((req, res) => serviceController.delete(req, res));
+
+//END-POINT PUT
+router
+.route("/services/:id")
+.put((req, res) => serviceController.update(req, res));
 
 module.exports = router;

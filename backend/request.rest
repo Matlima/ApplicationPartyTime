@@ -16,4 +16,17 @@ GET http://localhost:3000/api/services/65f25d869c0d910c05db1091
 
 ###
 
-DELETE  http://localhost:3000/api/services/65f25d869c0d910c05db1091
+DELETE  http://localhost:3000/api/services/65f25f7c1ecf1d6dfd75cef4
+
+
+###
+
+PUT http://localhost:3000/api/services/65f26af769c7d6b913c892d3
+Content-Type: application/json
+
+{
+    "name": "Balão tradicional",
+    "description": "Balões tradicionais para eventos de amor",
+    "price": 900,
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fchammafesta.com.br%2Fbalao-metalizado-coracao-18&psig=AOvVaw39UHYrm2gLI0K8WTU-Bs9n&ust=1710468833682000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMje5IrX8oQDFQAAAAAdAAAAABAE"
+}
