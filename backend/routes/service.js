@@ -17,4 +17,9 @@ router
     .route("/services/:id")
     .get((req, res) => serviceController.get(req, res));
 
+//END-POINT DELETE
+router
+    .route("/services/:id")
+    .delete((req, rest) => serviceController.delete(req, rest));
+
 module.exports = router;
