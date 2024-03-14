@@ -59,11 +59,30 @@ const partyController = {
             }
 
             res.json(parties);
+
         } catch (error) {
             console.log(error);
         }
     },
-    
+
+    // METHOD DELETE:
+    delete: async (req, res) => {
+        try {
+            const id = req.params.id;
+            const party = await PartyModel.findById(id);
+
+            if (!party) {
+                res.status(404).json({ msg: "Serviço não encontrado" });
+                return;
+            }
+
+            const deletedParty = await PartyModel.findByIdAndDelete(id);
+            res.status(200).json({ deletedParty, msg:"Festa excluída com sucesso" });
+
+        } catch (error) {
+            console.log(error);
+        }
+    }
 
 
 

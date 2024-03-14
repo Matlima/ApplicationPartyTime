@@ -11,6 +11,9 @@ router.route("/parties").get((req, res) => partyController.getAll(req, res));
 // END-POINT GET BY ID
 router.route("/parties/:id").get((req, res) => partyController.get(req, res));
 
+// END-POINT DELETE
+router.route("/parties/:id").delete((req, res) => partyController.delete(req, res));
+
 
 
 module.exports = router;
