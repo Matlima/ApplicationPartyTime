@@ -2,6 +2,8 @@ import partyFetch from "../axios/config";
 
 import { useState, useEffect } from "react";
 
+import "./Form.css";
+
 
 const CreateParty = () => {
 
