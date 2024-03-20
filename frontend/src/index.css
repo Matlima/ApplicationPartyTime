@@ -9,6 +9,10 @@ body {
     background-color: #f5f6fa;
 }
 
+li {
+    text-align: center;
+}
+
 ul {
     list-style: none;
     display: flex;
