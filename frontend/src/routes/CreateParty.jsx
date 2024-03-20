@@ -46,7 +46,7 @@ const CreateParty = () => {
   };
 
   // Create a new party
-  const CreateParty = (e) => {
+  const CreateParty = async (e) => {
     e.preventDefault();
 
     const party = {
@@ -58,7 +58,7 @@ const CreateParty = () => {
       services: partyServices,
     };
     
-    console.log(party);
+    const res = await partyFetch.post("/parties", party);
 
   };
 
