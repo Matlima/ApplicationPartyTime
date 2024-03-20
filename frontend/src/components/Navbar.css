@@ -11,6 +11,8 @@
     font-weight: 900;
 }
 
-
+#navbar ul {
+    align-items: center;
+}
 
 
