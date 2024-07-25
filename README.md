@@ -19,7 +19,6 @@ A aplicação permite que os usuários organizem e gerenciem eventos, incluindo 
 
 ### Backend
 
-- **Autenticação e Autorização**: Implementação de JWT (JSON Web Tokens) para autenticação segura dos usuários.
 - **CRUD Completo**: Criação, leitura, atualização e exclusão de registros para múltiplas entidades (eventos, convidados, Serviços, despesas).
 - **Validações de Dados**: Validações de dados personalizadas para garantir a integridade dos dados.
 - **Documentação da API**: Documentação da API gerada automaticamente usando Swagger.
