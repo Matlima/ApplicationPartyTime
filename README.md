@@ -72,8 +72,9 @@ A aplicação permite que os usuários organizem e gerenciem eventos, incluindo 
 
 1. Clone o repositório do frontend:
    ```bash
-   git clone https://github.com/seu-usuario/party-organizer-frontend.git
-   cd party-organizer-frontend
+   git clone https://github.com/Matlima/ApplicationPartyTime
+   cd ApplicationPartyTime
+   cd frontend
 
 2. Instale as dependências:
    ```bash
@@ -89,8 +90,9 @@ A aplicação permite que os usuários organizem e gerenciem eventos, incluindo 
 
 1. Clone o repositório do frontend:
    ```bash
-   git clone https://github.com/seu-usuario/party-organizer-frontend.git
-   cd party-organizer-frontend
+   git clone https://github.com/Matlima/ApplicationPartyTime
+   cd ApplicationPartyTime
+   cd backend
    ```
 
 2. Instale as dependências:
